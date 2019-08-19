@@ -194,7 +194,7 @@ int main(int argc, char *argv[]) {
         PIN = stoi(input.getCmdOption("-p"));
     }
 
-    const std::string &filename = input.getCmdOption("-c");
+    const std::string &filename = input.getCmdOption("-a");
     if (!filename.empty()){
         readConfig(filename);
         if (!quietMode) {
